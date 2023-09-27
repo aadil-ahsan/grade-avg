@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CS10 Grade Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+
+  <body>
+    <h1>CS10 Grade Calculator</h1>
+    <hr />
+
+    <p>Computing Science is a part of Career and Technology Studies (CTS).</p>
+
+    <p>
+      Your grade for Computing Science will be the <strong>average</strong> of
+      your grades on five individual CTS modules.
+    </p>
+    <hr />
+
+    <!-- Input form -->
+    <h2>Enter Grades</h2>
+    <p>Client-side Scripting 1: <input type="number" id="csScripting1" />%</p>
+    <p>Structured Programming 1: <input type="number" id="sp1" />%</p>
+    <p>Structured Programming 2: <input type="number" id="sp2" />%</p>
+    <p>Client-side Scripting 2: <input type="number" id="csScripting2" />%</p>
+    <p>Project A: <input type="number" id="projA" />%</p>
+
+    <button id="calculate">Calculate CS10 Grade</button>
+
+    <hr />
+    <h2>Final CS10 Grade: <span id="output">-----</span>%</h2>
+  </body>
+</html>
